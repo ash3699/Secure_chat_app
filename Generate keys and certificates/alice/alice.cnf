@@ -1,0 +1,16 @@
+[req]
+default_bits=1024
+distinguished_name=req_distinguished_name
+x509_extensions=v3_ca
+
+[req_distinguished_name]
+countryName=IN
+stateOrProvinceName=Telangana
+localityName=Hyderabad
+organizationName=IIT Hyderabad
+organizationalUnitName=CSE
+commonName=Alice1.com
+emailAddress = cs23mtech11004@iith.ac.in
+
+[v3_ca]
+
